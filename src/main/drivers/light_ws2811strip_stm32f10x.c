@@ -62,7 +62,7 @@ void ws2811LedStripHardwareInit(void)
     TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
     TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
     TIM_OCInitStructure.TIM_Pulse = 0;
-    TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
+    TIM_OCInitStructure.TIM_OCPolarity = LED_STRIP_POLARITY;
     TIM_OC1Init(TIM3, &TIM_OCInitStructure);
     TIM_OC1PreloadConfig(TIM3, TIM_OCPreload_Enable);
 

@@ -110,6 +110,9 @@
 
 #define LED_STRIP
 #define LED_STRIP_TIMER TIM3
+// TIM_OCPolarity_High for normal operation
+// TIM_OCPolarity_Low if inverted by open drain level converter
+#define LED_STRIP_POLARITY TIM_OCPolarity_Low
 
 #define TELEMETRY
 #define SERIAL_RX
