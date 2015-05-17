@@ -1,5 +1,7 @@
 # Cleanflight
 
+[![Join the chat at https://gitter.im/kylemanna/cleanflight](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kylemanna/cleanflight?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Clean-code version of baseflight flight-controller - flight controllers are used to fly multi-rotor craft and fixed wing craft.
 
 This fork differs from baseflight in that it attempts to use modern software development practices which result in:
